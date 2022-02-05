@@ -1,0 +1,11 @@
+.block{
+    width:0px;
+    height:0px;
+    padding:20px;
+    background:green;
+    margin-left:1px;
+}
+#graph-area{
+    margin-left:50px;
+    margin-top:200px;
+}
