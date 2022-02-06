@@ -4,7 +4,7 @@ const value=document.getElementById("value")
 const sortbutton=document.getElementById("sort")
 
 value.innerText=slider.value
-slider.onchange = ()=>{
+slider.oninput = ()=>{
     value.innerText=slider.value
     graph.innerHTML=""
     for(let i=0;i<slider.value;i++)
